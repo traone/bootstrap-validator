@@ -40,7 +40,7 @@
     })
   }
 
-  Validator.INPUT_SELECTOR = ':input:not([type="submit"], button):enabled:visible'
+  Validator.INPUT_SELECTOR = ':input:not([type="submit"], button):enabled'
 
   Validator.DEFAULTS = {
     delay: 500,
