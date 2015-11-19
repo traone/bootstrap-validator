@@ -198,10 +198,10 @@
 
   Validator.prototype.clearErrors = function ($el) {
     var $group = $el.closest('.form-group')
-    var $block = $group.find('.help-block.with-errors')
+    //var $block = $group.find('.help-block.with-errors')
     var $feedback = $group.find('.form-control-feedback')
 
-    $block.html($block.data('bs.validator.originalContent'))
+    //$block.html($block.data('bs.validator.originalContent'))
     $group.removeClass('has-error')
 
     $feedback.length
